@@ -25,7 +25,7 @@ $decoded = jesobreira\Base10::decode($encoded);
 echo "Decoded string " . $decoded . PHP_EOL;
 ```
 
-Or with composer (`composer require base10/base10`):
+Or with composer (`composer require jesobreira/base10`):
 
 ```
 <?php
