@@ -1,5 +1,5 @@
 {
-    "name": "base10/base10",
+    "name": "jesobreira/base10",
     "description": "A base10 encoder as an alternative to base64.",
     "type": "library",
     "require": {
@@ -7,7 +7,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Base10\\": "src/"
+            "jesobreira\\": "src/"
         }
     },
     "authors": [
