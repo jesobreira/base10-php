@@ -1,0 +1,22 @@
+{
+    "name": "base10/base10",
+    "description": "A base10 encoder as an alternative to base64.",
+    "type": "library",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Base10\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jefrey S. Santos",
+            "email": "jefrey.santos@capitual.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {},
+    "license": "MIT"
+}
