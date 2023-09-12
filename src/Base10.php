@@ -1,7 +1,6 @@
 <?php
-// src/Base10Encoder.php
 
-namespace Base10;
+namespace jesobreira;
 
 class Base10 {
     static function stringToByteArray($str) {

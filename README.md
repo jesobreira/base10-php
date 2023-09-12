@@ -18,10 +18,10 @@ include './src/Base10.php';
 $original = 'Hello, world!';
 echo "Original string: " . $original . PHP_EOL;
 
-$encoded = Base10\Base10::encode($original);
+$encoded = jesobreira\Base10::encode($original);
 echo "Encoded string: " . $encoded . PHP_EOL;
 
-$decoded = Base10\Base10::decode($encoded);
+$decoded = jesobreira\Base10::decode($encoded);
 echo "Decoded string " . $decoded . PHP_EOL;
 ```
 
@@ -32,14 +32,14 @@ Or with composer (`composer require base10/base10`):
 
 require __DIR__ . '/vendor/autoload.php';  // Require Composer's autoloader
 
-use Base10\Base10;
+use jesobreira\Base10;
 
 $original = 'Hello, world!';
 echo "Original string: " . $original . PHP_EOL;
 
-$encoded = Base10\Base10::encode($original);
+$encoded = Base10::encode($original);
 echo "Encoded string: " . $encoded . PHP_EOL;
 
-$decoded = Base10\Base10::decode($encoded);
+$decoded = Base10::decode($encoded);
 echo "Decoded string " . $decoded . PHP_EOL;
 ```
